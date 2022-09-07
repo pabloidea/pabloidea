@@ -75,6 +75,34 @@ div.desc {
 /* END OF GALLERY*/
 
 
+
+
+
+
+
+.responsive2 {
+  padding: 0 6px;
+
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive2 {
+    width: 70%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive2 {
+    width: 70%;
+  }
+}
+
+
+
+
+
 /*Side by side images*/
 * {
   box-sizing: border-box;
