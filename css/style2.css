@@ -228,6 +228,14 @@ ul{
 }
 
 
+/*made these to change background colors if wanted */
+.backcolor{
+  padding: 15px;
+  /*background:#D4F7D4; */
+  /*background:#e6e6e6; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 
 
@@ -321,6 +329,7 @@ header a:hover{
 /* Boxes */
 #boxes{
   margin-top:20px;
+
 }
 
 #boxes .box{
