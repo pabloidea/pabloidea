@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content "width=device-width">
+		<meta name="description" content="Pablo Espíndola Chavarría">
+		<meta name="keywords" content="Pablo Espíndola,Pablo Espíndola Chavarría, Engineering, Pablo Espíndola Chavarría Engineering">
+		<meta name="author" content="Pablo Espíndola Chavarría">
+		<title>Pablo Engineering | Radio</title>
+		<link rel="stylesheet" href="./css/style2.css">
+
+<!--This makes the favicon-->
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!--makes the dropdown arrow work-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XS9BKRE2L8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XS9BKRE2L8');
+</script>
+
+
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Pablo</span>idea</h1>
+				</div>
+				<nav>
+				<!--	<ul>
+
+
+						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+					</ul> -->
+
+
+					<!--Menu with dropdown Menu -->
+					<div class="navbar">
+						<a href="index.html">Home</a> <!--learn ID to override nav and not use style all the time-->
+						<a href="about.html">About</a>
+						<div class="dropdown">
+							<button class="dropbtn">More
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<a style = "color:#35424a; font-weight:bold;" href="radio.html">Radio</a>
+								<a href="engineering.html">Engineering</a>
+								<a href="fitness.html">Fitness</a>
+								<a href="gallery.html">Gallery</a>
+
+
+							</div>
+						</div>
+					</div>
+
+
+				</nav>
+			</div>
+		</header>
+
+<body>
+
+
+	<section>
+  <p style = "text-align:center; font-size: 20px; font-family: Cursive;">“If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.” — Nikola Tesla</p>
+</section>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<!--  <div class="numbertext">1 / 3</div> -->
+  <img src="./images/Radio/radiocars2.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+<!--  <div class="numbertext">2 / 3</div> -->
+  <img src="./images/Radio/RadTow.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+<!--  <div class="numbertext">3 / 3</div> -->
+  <img src="./images/Radio/RadTrunk2.JPG" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+<!--  <div class="numbertext">3 / 3</div> -->
+  <img src="./images/Radio/RadCarTow1.JPG" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+	<span class="dot"></span>
+</div>
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5500); // Change image every 2 seconds
+}
+</script>
+
+<section id="newsletter">
+	<div class="container">
+		<h1>Subscribe To My Newsletter</h1>
+		<form>
+			<input type="email" placeholder="Enter Email...     (DONT!)">
+			<button type="submit" class="button_1">Subscribe</button>
+		</form>
+	</div>
+</section>
+
+
+<section id="main">
+	<div class="container">
+		<article id="main-col">
+			<h1 class="page-title">Engineering and Design Work</h1>
+			<ul id="services">
+
+				<br>
+				<li>
+					<h3>Amateur Radio Club [W0EEE]</h3>
+					<p>I am a member of the amateur radio club. My call sign is [KF0GZR] and I hold technician and general licenses.
+					I extremely enjoy Ham Radio myself. It's awesome to know that everything in this universe is WAVES!!</p>
+						<!--  <p>Pricing: $150 - $200</p> -->
+
+						<center>
+							<img src="./images/Radio/Radself.jpg" alt="Selfie with Radio" style="width:400px;height:500px;">
+						</center>
+
+				</li>
+				<br>
+				<li>
+					<h3>Basic aircraft Design Work</h3>
+					<p>In the Spring semester of 2021 I took an Intro to Aircraft Design class, where my team and I designed and built a basic aircraft.
+					This was an awesome experience because we took the knowledge from the previous course, Aerospace Vehicle Performance, and applied a lot of the
+				equations for the desing and build of my team's aircraft.</p>
+					<!--  <p>Pricing: $150 - $200</p> -->
+
+					
+
+
+					<div class="row">
+						<div class="column">
+							<img src="./images/Engineering/lockerfront.JPG" alt="Cardboard safe front" style="width:100%">
+						</div>
+						<div class="column">
+							<img src="./images/Engineering/lockermech.JPG" alt="Cardboard safe mechanism" style="width:100%">
+						</div>
+						<div class="column">
+							<img src="./images/Engineering/lockerdial.JPG" alt="Cardboard safe dial" style="width:100%">
+						</div>
+
+				</li>
+				</ul>
+			</article>
+
+</div>
+</section>
+
+
+<footer>
+	<p>Pablo Espíndola Chavarría, Copyright &copy; 2021 <br>
+	Website made by Pablo;)</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content "width=device-width">
+		<meta name="description" content="Pablo Espíndola Chavarría">
+		<meta name="keywords" content="Pablo Espíndola,Pablo Espíndola Chavarría, Engineering, Pablo Espíndola Chavarría Engineering">
+		<meta name="author" content="Pablo Espíndola Chavarría">
+		<title>Pablo Engineering | About</title>
+		<link rel="stylesheet" href="./css/style.css">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!--makes the dropdown arrow work-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XS9BKRE2L8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XS9BKRE2L8');
+</script>
+
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Pablo</span> Espíndola Chavarría</h1>
+				</div>
+				<nav>
+
+					<div class="navbar">
+						<a href="index.html">Home</a>
+						<a style="color:#D4F7D4; font-weight:bold;" href="about.html">About</a>
+						<div class="dropdown">
+							<button class="dropbtn">More
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<a href="hobbies.html">Hobbies</a>
+								<a href="engineeringwork.html">Engineering Work</a>
+								<a href="gallery.html">Gallery</a>
+
+							</div>
+						</div>
+					</div>
+
+
+				</nav>
+			</div>
+		</header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To My Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-colAbt">
+          <h1 class="page-title">About Me</h1>
+          <p>
+            Hello my name is Pablo and I like to eat peanut butter and honey sandwiches. I am currently studying Electrical, Computer and Aerospace Engineering at Missouri University of Science and Technology.
+						I grew up in Mexico City and now my family lives in St. Louis, Missouri.
+
+
+          <p class="dark">
+            Since I was a young boy, I have wanted become an engineer!
+            </p>
+						<!--<p><br><br><br><br><br><br>></p>-->
+
+
+          </article>
+
+          <aside id="sidebar">
+            <div class="dark">
+            <h3>What I do</h3>
+            <p>I am a full time student and a lot of my time goes toward school work and studying, but I spend even more time at my school's club radio shack.
+						</p>
+
+
+						</div>
+          </aside>
+    </div>
+    </section>
+<article id = "main-colAbt2">
+
+	<center>
+	<!--image slider start-->
+	<div class="slider">
+		<div class="slides">
+			<!--radio buttons start-->
+			<input type="radio" name="radio-btn" id="radio1">
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+			<input type="radio" name="radio-btn" id="radio4">
+			<!--radio buttons end-->
+			<!--slide images start-->
+			<div class="slide first">
+				<h1 class="text-overlay"> Welcome to my website </h1>
+				<img src="./images/pic1.JPG" alt="">
+
+			</div>
+			<div class="slide">
+				<h1 class= "text-overlay"> Helloooooo </h1>
+				<img src="./images/pic2.jpg" alt="">
+			</div>
+			<div class="slide">
+				<img src="./images/pic3.jpg" alt="">
+			</div>
+			<div class="slide">
+				<img src="./images/pic4.jpg" alt="">
+			</div>
+			<!--slide images end-->
+			<!--automatic navigation start-->
+			<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+			</div>
+			<!--automatic navigation end-->
+		</div>
+		<!--manual navigation start-->
+		<div class="navigation-manual">
+			<label for="radio1" class="manual-btn"></label>
+			<label for="radio2" class="manual-btn"></label>
+			<label for="radio3" class="manual-btn"></label>
+			<label for="radio4" class="manual-btn"></label>
+		</div>
+		<!--manual navigation end-->
+	</div>
+	<!--image slider end-->
+
+	<script type="text/javascript">
+	var counter = 1;
+	setInterval(function(){
+		document.getElementById('radio' + counter).checked = true;
+		counter++;
+		if(counter > 4){
+			counter = 1;
+		}
+	}, 5000);
+	</script>
+	</center>
+
+		<p>
+			<br>Generally, an electric field is produced by a charged particle. A force is exerted by this electric field on other charged particles. Positive charges accelerate in the direction of the field and negative charges accelerate in a direction opposite to the direction of the field.
+			The Magnetic field is produced by a moving charged particle. A force is exerted by this magnetic field on other moving particles. The force on these charges is always perpendicular to the direction of their velocity and therefore only changes the direction of the velocity, not the speed.
+			So, the electromagnetic field is produced by an accelerating charged particle. Electromagnetic waves are nothing but electric and magnetic fields travelling through free space with the speed of light c. An accelerating charged particle is when the charged particle oscillates about an equilibrium position. If the frequency of oscillation of the charged particle is f, then it produces an electromagnetic wave with frequency f. The wavelength λ of this wave is given by λ = c/f.  Electromagnetic waves transfer energy through space.
+
+		</p>
+
+		
+
+</article>
+
+
+    <footer>
+      <p>Pablo Espíndola Chavarría, Copyright &copy; 2021</p>
+    </footer>
+	</body>
+</html>
