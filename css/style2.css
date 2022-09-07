@@ -83,19 +83,19 @@ div.desc {
 .responsive2 {
   padding: 0 6px;
 
-  width: 100%;
+  width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive2 {
-    width: 70%;
+    width: 49.99999%;
     margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive2 {
-    width: 70%;
+    width: 100%;
   }
 }
 
